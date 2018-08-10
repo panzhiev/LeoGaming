@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/divider_m"
+        android:text="@string/details"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_m" />
+
+    <View style="@style/ViewDetails" />
+    <TextView
+        android:id="@+id/tv_service"
+        style="@style/TvDetails" />
+
+    <View style="@style/ViewDetails" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/TvDetails" />
+
+    <View style="@style/ViewDetails"/>
+
+    <TextView
+        android:id="@+id/tv_account"
+        style="@style/TvDetails" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_ok"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_marginEnd="@dimen/divider_s"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/ok"
+            android:textAllCaps="false" />
+
+    </FrameLayout>
+</LinearLayout>

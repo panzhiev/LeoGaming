@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LeoGaming</string>
+
+    <!-- bnv -->
+    <string name="wallet">КОШЕЛЕК</string>
+    <string name="bonus">БОНУСЫ</string>
+    <string name="history">ИСТОРИЯ</string>
+    <string name="profile">ПРОФИЛЬ</string>
+
+    <!-- dashboard -->
+    <string name="replenish">Пополнить</string>
+    <string name="withdraw">Вывести</string>
+    <string name="search_hint">Поиск услуг и получателей…</string>
+    <string name="favorites">Избранное</string>
+    <string name="last">Последние</string>
+    <string name="details">Детали</string>
+    <string name="ok">Ok</string>
+    <string name="text_fab1">Перевести\nденьги</string>
+    <string name="text_fab2">Оплатить\nусллуги</string>
+    <string name="text_fab3">Выставить\nсчет</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_send_money"
+            style="@style/FabContainer">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_send_money"
+                style="@style/FabDashboard"
+                android:src="@drawable/ic_swap_horiz"
+                app:fabSize="normal" />
+
+            <TextView
+                style="@style/TvFabContainer"
+                android:text="@string/text_fab1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_pay_for_services"
+            style="@style/FabContainer">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_pay_for_services"
+                style="@style/FabDashboard"
+                android:src="@drawable/ic_attach_money"
+                app:fabSize="normal" />
+
+            <TextView
+                style="@style/TvFabContainer"
+                android:text="@string/text_fab2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_bill"
+            style="@style/FabContainer">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_bill"
+                style="@style/FabDashboard"
+                android:src="@drawable/ic_bill"
+                app:fabSize="normal" />
+
+            <TextView
+                style="@style/TvFabContainer"
+                android:text="@string/text_fab3" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

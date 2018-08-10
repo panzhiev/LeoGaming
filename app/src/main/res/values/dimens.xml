@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- override -->
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">@dimen/text_xxs</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">@dimen/text_xxs
+    </dimen>
+
+    <!-- TextSizes -->
+    <dimen name="text_xxs">9sp</dimen>
+    <dimen name="text_xs">11sp</dimen>
+    <dimen name="text_s">13sp</dimen>
+    <dimen name="text_sm">16sp</dimen>
+    <dimen name="text_m">17sp</dimen>
+    <dimen name="text_l">20sp</dimen>
+    <dimen name="text_xl">24sp</dimen>
+    <dimen name="text_xxl">28sp</dimen>
+    <dimen name="text_xxxl">32sp</dimen>
+
+    <!-- Dividers -->
+    <dimen name="divider_xs">4dp</dimen>
+    <dimen name="divider_s">8dp</dimen>
+    <dimen name="divider_m">12dp</dimen>
+    <dimen name="divider_l">16dp</dimen>
+    <dimen name="divider_xl">20dp</dimen>
+    <dimen name="divider_xxl">24dp</dimen>
+
+    <!-- Other -->
+    <dimen name="margin_start_item_main_content">96dp</dimen>
+    <dimen name="header_number_height">48dp</dimen>
+    <dimen name="button_height">40dp</dimen>
+
+
+</resources>

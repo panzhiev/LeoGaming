@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryLow">#3d3d3d</color>
+    <color name="colorPrimary">#262626</color>
+    <color name="colorPrimaryMiddle">#1d1d1d</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#262626</color>
+    <color name="colorPrimaryRipple">#42ffffff</color>
+
+    <!-- bottom navigation -->
+    <color name="nav_item">#80ffffff</color>
+    <color name="nav_item_active">#ffffffff</color>
+
+    <color name="translucent_black_xs">#20000000</color>
+    <color name="translucent_black_s">#30000000</color>
+    <color name="translucent_black_m">#40000000</color>
+    <color name="translucent_white_xs">#20ffffff</color>
+    <color name="translucent_white_s">#30ffffff</color>
+    <color name="translucent_white_m">#50ffffff</color>
+    <color name="translucent_white_l">#80ffffff</color>
+    <color name="translucent_white_xl">#90ffffff</color>
+
+    <!-- other colors -->
+    <color name="disabled">#3F3F3F</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#4d9938</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#005eb6</color>
+    <color name="transparent">#00ffffff</color>
+
+    <!-- Text -->
+    <color name="colorTextDefault">#95000000</color>
+    <color name="colorTextDefaultSecondary">#60000000</color>
+    <color name="header_text_color">#ffffff</color>
+
+    <!-- EditText -->
+    <color name="light_blue">#EEF3F7</color>
+
+    <!-- gradient header -->
+    <color name="low_gradient_color">#5400ca</color>
+    <color name="middle_gradient_color">#910070</color>
+    <color name="high_gradient_color">#F70050</color>
+
+    <!-- btn replenish gradient color-->
+    <color name="low_replenish_color">#3D3D41</color>
+    <color name="high_replenish_color">@color/colorPrimary</color>
+</resources>

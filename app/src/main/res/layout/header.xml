@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_bg_header"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_account_number"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/header_number_height"
+            android:background="@drawable/gradient_bg_number"
+            android:gravity="center"
+            android:textColor="@color/translucent_white_xl"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/divider_xxl">
+
+            <TextView
+                android:id="@+id/tv_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/divider_xl"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_xxl"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/btn_replenish"
+                    style="@style/BtnDashboard"
+                    android:background="@drawable/btn_replenish_selector">
+
+                    <TextView
+                        style="@style/TvButtonsDashboard"
+                        android:text="@string/replenish" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="@dimen/divider_l"
+                    android:layout_height="wrap_content" />
+
+                <FrameLayout
+                    android:id="@+id/btn_withdraw"
+                    style="@style/BtnDashboard"
+                    android:background="@drawable/btn_withdraw_selector">
+
+                    <TextView
+                        style="@style/TvButtonsDashboard"
+                        android:text="@string/withdraw" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>
