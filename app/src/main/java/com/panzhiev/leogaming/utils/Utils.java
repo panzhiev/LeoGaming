@@ -2,33 +2,14 @@ package com.panzhiev.leogaming.utils;
 
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.res.AssetManager;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.support.v7.app.AlertDialog;
 import android.text.Html;
 import android.text.Spanned;
 
-import java.io.IOException;
-import java.io.InputStream;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 
 public class Utils {
-
-    public static Bitmap getBitmapFromAssets(Context context, String fileName) {
-        AssetManager assetManager = context.getAssets();
-
-        InputStream istr;
-        Bitmap bitmap = null;
-        try {
-            istr = assetManager.open(fileName + ".png");
-            bitmap = BitmapFactory.decodeStream(istr);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return bitmap;
-    }
 
     public static Spanned formatBalance(String unformattedBalance) {
 
@@ -42,7 +23,7 @@ public class Utils {
             whole = split[0];
             fractional = split[1];
 
-            String finalRow = "<big>" + symbol + "</big>" + "<big><b>" + getFormatter(3).format(Integer.parseInt(whole)) + "</b></big>"
+            String finalRow = "<big>" + symbol + "</big>" + "<big><b>" + getFormatter().format(Integer.parseInt(whole)) + "</b></big>"
                     + "<small><b>" + "." + fractional + "</b></small>";
 
             return Html.fromHtml(finalRow);
@@ -73,12 +54,12 @@ public class Utils {
         return "";
     }
 
-    private static DecimalFormat getFormatter(int groupSize) {
+    private static DecimalFormat getFormatter() {
         DecimalFormatSymbols symbols = new DecimalFormatSymbols();
         symbols.setGroupingSeparator(' ');
         DecimalFormat df = new DecimalFormat();
         df.setDecimalFormatSymbols(symbols);
-        df.setGroupingSize(groupSize);
+        df.setGroupingSize(3);
         return df;
     }
 

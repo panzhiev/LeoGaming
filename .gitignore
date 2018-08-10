@@ -8,9 +8,3 @@
 /build
 /captures
 .externalNativeBuild
-
-Будет удалено .idea/
-Будет удалено app/libs/
-Будет удалено app/src/androidTest/
-Будет удалено app/src/main/assets/
-Будет удалено app/src/test/
